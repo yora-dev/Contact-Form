@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <form action="">
+        <h1 class="header">Contact Us</h1>
+        <div class="name">
+          <div class="first__name">
+            <label for="first-name">
+              First Name <span class="asteric">*</span>
+            </label>
+            <input
+              type="text"
+              name="firstname"
+              id="first-name"
+              class="input-field"
+            />
+            <p class="common-error first"></p>
+          </div>
+          <div class="last__name">
+            <label for="last-name">
+              Last Name <span class="asteric">*</span>
+            </label>
+            <input
+              type="text"
+              name="lastname"
+              class="input-field"
+              id="last-name"
+            />
+            <p class="common-error last"></p>
+          </div>
+        </div>
+        <div class="email">
+          <label for="email"
+            >Email Address <span class="asteric">*</span>
+          </label>
+          <input type="text" class="input-field" name="email" id="email" />
+          <p class="email-error"></p>
+        </div>
+
+        <div class="query-container">
+          <p>Query Type <span class="asteric">*</span></p>
+          <div class="query-card">
+            <div class="query">
+              <img
+                src="images/icon-radio-selected.svg"
+                alt=""
+                class="query-radio"
+              />
+              <input type="radio" class="check-query" />
+              <p>General Enquiry</p>
+            </div>
+            <div class="query">
+              <img
+                src="images/icon-radio-selected.svg"
+                alt=""
+                class="query-radio"
+              />
+              <input type="radio" class="check-query" />
+              <p>Support Request</p>
+            </div>
+          </div>
+          <p class="query-error"></p>
+        </div>
+
+        <div class="message">
+          <label for="message">Message <span class="asteric">*</span></label>
+          <textarea name="" id="message" rows="8" onkeyup="mfun()"></textarea>
+          <p class="common-error message-error"></p>
+        </div>
+        <div class="consent">
+          <div class="consent-card">
+            <input type="radio" class="consent-radio" />
+            <img
+              src="images/icon-checkbox-check.svg"
+              alt=""
+              class="consent-check"
+            />
+            <p>
+              I consent to being Contacted by the team
+              <span class="asteric">*</span>
+            </p>
+          </div>
+          <p class="consent-error"></p>
+        </div>
+        <div class="btn-container">
+          <button type="submit" class="btn-submit" id="btn">Submit</button>
+        </div>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
