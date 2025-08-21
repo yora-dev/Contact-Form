@@ -11,14 +11,7 @@ let queryCheck = document.querySelectorAll('.query');
 let checkQuery = document.querySelectorAll('.check-query');
 let queryRadio= document.querySelectorAll('.query-radio');
 
-for (let i = 0; i < checkQuery.length; i++) {
-  checkQuery[i].addEventListener('click', function() {
-    this.classList.toggle('check-queryh');
-  })
-  queryRadio[i].addEventListener('click', function() {
-    this.classList.toggle('q-radio-active');
-  })
-};
+
 
 // Error Variable
 
@@ -121,3 +114,12 @@ consentCheck.addEventListener('click', function () {
 for (i = 0; i < queryCheck.length; i++) {
   queryCheck[i].addEventListener('click', qfun)
 }
+
+for (let i = 0; i < checkQuery.length; i++) {
+  checkQuery[i].addEventListener('click', function() {
+    this.classList.toggle('check-queryh');
+  })
+  queryRadio[i].addEventListener('click', function() {
+    this.classList.toggle('q-radio-active');
+  })
+};
