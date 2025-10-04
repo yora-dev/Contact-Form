@@ -33,7 +33,11 @@ Users should be able to:
 
 ### Screenshot
 
+<<<<<<< HEAD
 ![](./desktop-preview.jpg)
+=======
+![](./desktop-preview.jpg.jpg)
+>>>>>>> 66ed6d33e5afd382eb7b84d37b711c34e8faa958
 
 ### Links
 
