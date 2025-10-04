@@ -73,8 +73,8 @@ I learned how to:
 
 ## Author
 
-- Frontend Mentor - [@yora-dev](https://www.frontendmentor.io/profile/yourusername)
-- GitHub - [@yora-dev](https://github.com/yourusername)
+- Frontend Mentor - [@yora-dev](https://www.frontendmentor.io/profile/yora-dev)
+- GitHub - [@yora-dev](https://github.com/yora-dev)
 - Discord - [@yordanos01](https://discord.com/yordanos01)
 
 ## Acknowledgments
