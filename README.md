@@ -33,16 +33,12 @@ Users should be able to:
 
 ### Screenshot
 
-<<<<<<< HEAD
 ![](./desktop-preview.jpg)
-=======
-![](./desktop-preview.jpg.jpg)
->>>>>>> 66ed6d33e5afd382eb7b84d37b711c34e8faa958
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/contact-form-saZYHioG3D
+- Live Site URL: https://contact-form-azure-ten.vercel.app/
 
 ## My process
 
